@@ -5,13 +5,13 @@ You have to break s into one or more non-overlapping substrings such that each s
 There may be some extra characters in s which are not present in any of the substrings.
 Return the minimum number of extra characters left over if you break up s optimally.
  
-Example 1:
+----------Example 1:
 Input: s = "leetscode", dictionary = ["leet","code","leetcode"]
 Output: 1
 Explanation: We can break s in two substrings: "leet" from index 0 to 3 and "code" from index 5 to 8. 
 There is only 1 unused character (at index 4), so we return 1.
 
-Example 2:
+-----------Example 2:
 Input: s = "sayhelloworld", dictionary = ["hello","world"]
 Output: 3
 Explanation: We can break s in two substrings: "hello" from index 3 to 7 and "world" from index 8 to 12. 
