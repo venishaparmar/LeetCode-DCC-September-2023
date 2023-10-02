@@ -1,4 +1,4 @@
-/*Problem Statement : 
+/* Problem Statement : 
 Given an integer n, return an array ans of length n + 1 such that for each i (0 <= i <= n), 
 ans[i] is the number of 1's in the binary representation of i.
 
@@ -35,9 +35,9 @@ We then store the results in an array and return the array.
 
 Complexity :
 Time complexity: O(n), since we need to iterate over all the numbers from 0 to n
-Space complexity: O(n), since we need to store an array of size n+1.
+Space complexity: O(n), since we need to store an array of size n+1. */
 
-Code : 
+//Code : 
 class Solution {
     public int[] countBits(int n) {
         int[] result = new int[n+1];
@@ -47,18 +47,6 @@ class Solution {
         return result;
     }
 }
-*/
-<!DOCTYPE html>
-<html>
-<head>
-<title>Hello World!</title>
-</head>
-<body>
 
-<h1>Hello world!</h1>
-<p>This is the first file in my new Git Repo.</p>
-
-</body>
-</html>
 
 
